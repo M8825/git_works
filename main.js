@@ -16,3 +16,10 @@ console.log("hello"[1]);                     // "e"
 console.log("hello"[2]);                     // "l"
 console.log("hello"[6]);                     // undefined; default value when no value present
 console.log("hi bye"[2]);                    // " "
+
+
+// 3. indexOf - Returns the index where the substring is first found
+console.log("hello".indexOf('e'));           // 1
+console.log("hello".indexOf("l"));           // 2; returns the left-most char for duplicates
+console.log("hello".indexOf('llo'));         // 2; returns index where substring starts
+console.log("hello".indexOf('x'));           // -1; returns -1 if char is not present
